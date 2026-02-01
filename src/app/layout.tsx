@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Poppins, Rubik } from "next/font/google";
+import 'yet-another-react-lightbox/styles.css';
+import "react-circular-progressbar/dist/styles.css";
+import "swiper/swiper-bundle.css";
+import "@/assets/css/combined.css";
+import ContextProvider from "@/components/context/ContextProvider";
+import CustomLayout from "@/components/layout/CustomLayout";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const rubik = Rubik({
+  variable: "--font-rubik",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -19,13 +26,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+    <html lang="en" data-scroll-behavior="smooth">
+      <body className={`${poppins.variable} ${rubik.variable}`}>
+        <ContextProvider>
+          <CustomLayout>
+            {children}
+          </CustomLayout>
+        </ContextProvider>
       </body>
     </html>
   );
