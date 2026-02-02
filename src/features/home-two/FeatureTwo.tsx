@@ -21,7 +21,7 @@ export default function FeatureTwo() {
                                         <span className="icon-international-shipping"></span>
                                     </div>
                                     <div className="feature-one__content">
-                                        <h3 className="feature-one__title"><Link href="/emergency-transport">Export Logistics</Link>
+                                        <h3 className="feature-one__title"><Link href="/inner/emergency-transport">Export Logistics</Link>
                                         </h3>
                                         <p className="feature-one__text">A logistic service provider company plays
                                             a pivotal role in the global logistic service.</p>
@@ -80,7 +80,7 @@ export default function FeatureTwo() {
                                         <span className="icon-24-hours-service"></span>
                                     </div>
                                     <div className="feature-one__content">
-                                        <h3 className="feature-one__title"><Link href="/contact">24/7 Support</Link></h3>
+                                        <h3 className="feature-one__title"><Link href="/inner/contact">24/7 Support</Link></h3>
                                         <p className="feature-one__text">A logistic service provider company plays
                                             a pivotal role in the global logistic service.</p>
                                     </div>

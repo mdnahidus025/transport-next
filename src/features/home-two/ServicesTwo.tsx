@@ -26,7 +26,7 @@ const servicesData: ServiceItemTwo[] = [
         image: ServicesTwo21,
         iconClass: "icon-worldwide-shipping",
         title: "International Transport",
-        path: "/international-transport",
+        path: "/inner/international-transport",
         text: "A logistic service provider company plays a pivotal role in the global supply."
     },
     {
@@ -34,7 +34,7 @@ const servicesData: ServiceItemTwo[] = [
         image: ServicesTwo22,
         iconClass: "icon-shipment",
         title: "Ocean Freight",
-        path: "/ocean-transport",
+        path: "/inner/ocean-transport",
         text: "A logistic service provider company plays a pivotal role in the global supply."
     },
     {
@@ -42,7 +42,7 @@ const servicesData: ServiceItemTwo[] = [
         image: ServicesTwo23,
         iconClass: "icon-delivery-man",
         title: "Rail Freight",
-        path: "/track-transport",
+        path: "/inner/track-transport",
         text: "A logistic service provider company plays a pivotal role in the global supply."
     },
     {
@@ -50,7 +50,7 @@ const servicesData: ServiceItemTwo[] = [
         image: ServicesTwo24,
         iconClass: "icon-truck",
         title: "Road Freight",
-        path: "/personal-delivery",
+        path: "/inner/personal-delivery",
         text: "A logistic service provider company plays a pivotal role in the global supply."
     },
     {
@@ -58,7 +58,7 @@ const servicesData: ServiceItemTwo[] = [
         image: ServicesTwo25,
         iconClass: "icon-shipment",
         title: "Local Truck Transport",
-        path: "/track-transport",
+        path: "/inner/track-transport",
         text: "A logistic service provider company plays a pivotal role in the global supply."
     },
     {
@@ -66,7 +66,7 @@ const servicesData: ServiceItemTwo[] = [
         image: ServicesTwo26,
         iconClass: "icon-delivery-man",
         title: "Fast Personal Delivery",
-        path: "/personal-delivery",
+        path: "/inner/personal-delivery",
         text: "A logistic service provider company plays a pivotal role in the global supply."
     },
 ];

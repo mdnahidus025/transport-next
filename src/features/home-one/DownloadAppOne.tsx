@@ -29,8 +29,8 @@ export default function DownloadAppOne() {
                                 </h2>
                                 <p className="download-app-one__text">Get our mobile app for easy and convenient usage</p>
                                 <div className="download-app-one__google-and-app-store">
-                                    <Link href="/contact"><Image src={DownloadAppImg1} width={130} height={30} alt='Image' /></Link>
-                                    <Link href="/contact"><Image src={DownloadAppImg2} width={130} height={30} alt='Image' /></Link>
+                                    <Link href="/inner/contact"><Image src={DownloadAppImg1} width={130} height={30} alt='Image' /></Link>
+                                    <Link href="/inner/contact"><Image src={DownloadAppImg2} width={130} height={30} alt='Image' /></Link>
                                 </div>
                             </div>
                         </div>

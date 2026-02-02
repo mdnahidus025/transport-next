@@ -22,7 +22,7 @@ export default function FindTransport() {
                             </div>
                         </div>
                         <div className="find-transport__btn-box">
-                            <Link href="/contact" className="thm-btn">Get a Quote<span><i
+                            <Link href="/inner/contact" className="thm-btn">Get a Quote<span><i
                                 className="icon-right-arrow"></i></span></Link>
                         </div>
                     </div>

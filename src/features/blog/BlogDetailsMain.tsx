@@ -109,7 +109,7 @@ const BlogDetailsMain: React.FC = () => {
                                                 else he endures pains to avoid worse pains to the selection point. But
                                                 in certain to all this circumstances</p>
                                             <div className="comment-one__btn-box">
-                                                <Link href="/blog-details" className="comment-one__btn"><span
+                                                <Link href="/inner/blog-details" className="comment-one__btn"><span
                                                     className="icon-share-alt"></span>Reply</Link>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ const BlogDetailsMain: React.FC = () => {
                                                 else he endures pains to avoid worse pains to the selection point. But
                                                 in certain to all this circumstances</p>
                                             <div className="comment-one__btn-box">
-                                                <Link href="/blog-details" className="comment-one__btn"><span className="icon-share-alt"></span>Reply</Link>
+                                                <Link href="/inner/blog-details" className="comment-one__btn"><span className="icon-share-alt"></span>Reply</Link>
                                             </div>
                                         </div>
                                     </div>

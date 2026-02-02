@@ -61,11 +61,11 @@ const FooterTwo: React.FC = () => {
                                     </div>
                                     <div className="footer-widget-two__link-box">
                                         <ul className="footer-widget-two__link list-unstyled">
-                                            <li><Link href="/">Home</Link></li>
-                                            <li><Link href="/about">About Us</Link></li>
-                                            <li><Link href="/services">Services</Link></li>
-                                            <li><Link href="/blog">Blog</Link></li>
-                                            <li><Link href="/contact">Contact</Link></li>
+                                            <li><Link href="/inner/">Home</Link></li>
+                                            <li><Link href="/inner/about">About Us</Link></li>
+                                            <li><Link href="/inner/services">Services</Link></li>
+                                            <li><Link href="/inner/blog">Blog</Link></li>
+                                            <li><Link href="/inner/contact">Contact</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -81,11 +81,11 @@ const FooterTwo: React.FC = () => {
                                         <h3 className="footer-widget-two__title">Our Services</h3>
                                     </div>
                                     <ul className="footer-widget-two__link list-unstyled">
-                                        <li><Link href="/international-transport">International Shipping</Link></li>
-                                        <li><Link href="/ocean-transport">Ocean Freight</Link> </li>
-                                        <li><Link href="/emergency-transport">Rail Freight</Link></li>
-                                        <li><Link href="/warehouse-facility">Road Freight</Link></li>
-                                        <li><Link href="/track-transport">Local Truck Transport</Link></li>
+                                        <li><Link href="/inner/international-transport">International Shipping</Link></li>
+                                        <li><Link href="/inner/ocean-transport">Ocean Freight</Link> </li>
+                                        <li><Link href="/inner/emergency-transport">Rail Freight</Link></li>
+                                        <li><Link href="/inner/warehouse-facility">Road Freight</Link></li>
+                                        <li><Link href="/inner/track-transport">Local Truck Transport</Link></li>
                                     </ul>
                                 </div>
                             </FadeInAdvanced>
@@ -122,9 +122,9 @@ const FooterTwo: React.FC = () => {
                     <div className="site-footer-two__bottom-inner">
                         <p className="site-footer-two__bottom-text">© Copywright 2026 by <Link href="#">tanspot</Link> All Rights Reserved.</p>
                         <ul className="list-unstyled site-footer-two__bottom-menu">
-                            <li><Link href="/contact">Support</Link></li>
-                            <li><Link href="/about">Terms and Condition</Link></li>
-                            <li><Link href="/about">Privacy and Policy</Link></li>
+                            <li><Link href="/inner/contact">Support</Link></li>
+                            <li><Link href="/inner/about">Terms and Condition</Link></li>
+                            <li><Link href="/inner/about">Privacy and Policy</Link></li>
                         </ul>
                     </div>
                 </div>

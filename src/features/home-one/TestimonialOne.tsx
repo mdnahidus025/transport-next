@@ -125,7 +125,7 @@ export default function TestimonialOne() {
                                                                     <p className="testimonial-one__text">{testimonial?.message}</p>
                                                                     <div className="testimonial-one__client-info-box">
                                                                         <div className="testimonial-one__client-info">
-                                                                            <h3><Link href="/testimonials">{testimonial?.name}</Link></h3>
+                                                                            <h3><Link href="/inner/testimonials">{testimonial?.name}</Link></h3>
                                                                             <p>{testimonial?.designation}</p>
                                                                         </div>
                                                                         <div className="testimonial-one__ratting">

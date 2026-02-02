@@ -54,7 +54,7 @@ const StrickyHeaderTwo: React.FC = () => {
                                             <Link href="#" className="main-menu-two__search searcher-toggler-box icon-search"></Link>
                                         </div>
                                         <div className="main-menu-two__cart-box">
-                                            <Link href="/cart" className="main-menu-two__cart">
+                                            <Link href="/inner/cart" className="main-menu-two__cart">
                                                 <span className="far fa-shopping-cart"></span>
                                                 <span className="main-menu-two__cart-count">02</span>
                                             </Link>
@@ -69,7 +69,7 @@ const StrickyHeaderTwo: React.FC = () => {
                                     </a>
                                 </div>
                                 <div className="main-menu-two__btn-box">
-                                    <Link href="/contact" className="thm-btn">Track Order<span> <i className="icon-right-arrow"></i></span></Link>
+                                    <Link href="/inner/contact" className="thm-btn">Track Order<span> <i className="icon-right-arrow"></i></span></Link>
                                 </div>
                             </div>
                         </div>

@@ -26,7 +26,7 @@ export default function CtaOne() {
                         <p>Logistic service provider company plays a pivotal <br />
                             role in the global supply chain ecosystem.</p>
                         <div className="cta-one__btn-box">
-                            <Link href="/about" className="thm-btn">Read More<span><i
+                            <Link href="/inner/about" className="thm-btn">Read More<span><i
                                 className="icon-right-arrow"></i></span></Link>
                         </div>
                     </div>

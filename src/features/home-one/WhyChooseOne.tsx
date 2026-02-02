@@ -118,7 +118,7 @@ const WhyChooseOne: React.FC = () => {
                             </div>
 
                             <div className="why-choose-one__btn-box">
-                                <Link href="/contact" className="thm-btn">
+                                <Link href="/inner/contact" className="thm-btn">
                                     Contact Us
                                     <span>
                                         <i className="icon-right-arrow"></i>

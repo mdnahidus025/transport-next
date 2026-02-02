@@ -26,12 +26,12 @@ const FeatureThree: React.FC = () => {
                                         <div className="feature-two__icon">
                                             <span className="icon-professional-services"></span>
                                         </div>
-                                        <h3 className="feature-two__title"><Link href="/about">Quality <br />Guarantee</Link></h3>
+                                        <h3 className="feature-two__title"><Link href="/inner/about">Quality <br />Guarantee</Link></h3>
                                     </div>
                                     <p className="feature-two__text">We always provide people a complete solution focused of
                                         any business.</p>
                                     <div className="feature-two__read-more">
-                                        <Link href="/about">read more<span className="icon-next"></span></Link>
+                                        <Link href="/inner/about">read more<span className="icon-next"></span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -53,13 +53,13 @@ const FeatureThree: React.FC = () => {
                                         <div className="feature-two__icon">
                                             <span className="icon-quote"></span>
                                         </div>
-                                        <h3 className="feature-two__title"><Link href="/contact">License & <br /> Insurance</Link>
+                                        <h3 className="feature-two__title"><Link href="/inner/contact">License & <br /> Insurance</Link>
                                         </h3>
                                     </div>
                                     <p className="feature-two__text">We always provide people a complete solution focused of
                                         any business.</p>
                                     <div className="feature-two__read-more">
-                                        <Link href="/contact">read more<span className="icon-next"></span></Link>
+                                        <Link href="/inner/contact">read more<span className="icon-next"></span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +81,13 @@ const FeatureThree: React.FC = () => {
                                         <div className="feature-two__icon">
                                             <span className="icon-courier-services"></span>
                                         </div>
-                                        <h3 className="feature-two__title"><Link href="/team-details">Certified <br /> Expert</Link>
+                                        <h3 className="feature-two__title"><Link href="/inner/team-details">Certified <br /> Expert</Link>
                                         </h3>
                                     </div>
                                     <p className="feature-two__text">We always provide people a complete solution focused of
                                         any business.</p>
                                     <div className="feature-two__read-more">
-                                        <Link href="/team-details">read more<span className="icon-next"></span></Link>
+                                        <Link href="/inner/team-details">read more<span className="icon-next"></span></Link>
                                     </div>
                                 </div>
                             </div>

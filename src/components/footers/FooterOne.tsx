@@ -60,11 +60,11 @@ const FooterOne: React.FC = () => {
                                     </div>
                                     <div className="footer-widget__link-box">
                                         <ul className="footer-widget__link list-unstyled">
-                                            <li><Link href="/about">About Us</Link></li>
-                                            <li><Link href="/projects">Portfolio</Link></li>
-                                            <li><Link href="/faqs">Help & FAQs</Link></li>
-                                            <li><Link href="/blog">Blog</Link></li>
-                                            <li><Link href="/contact">Contact</Link></li>
+                                            <li><Link href="/inner/about">About Us</Link></li>
+                                            <li><Link href="/inner/projects">Portfolio</Link></li>
+                                            <li><Link href="/inner/faqs">Help & FAQs</Link></li>
+                                            <li><Link href="/inner/blog">Blog</Link></li>
+                                            <li><Link href="/inner/contact">Contact</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -80,13 +80,13 @@ const FooterOne: React.FC = () => {
                                         <h3 className="footer-widget__title">Our Services</h3>
                                     </div>
                                     <ul className="footer-widget__link list-unstyled">
-                                        <li><Link href="/international-transport">International Shipping</Link>
+                                        <li><Link href="/inner/international-transport">International Shipping</Link>
                                         </li>
-                                        <li><Link href="/ocean-transport">Ocean Freight</Link>
+                                        <li><Link href="/inner/ocean-transport">Ocean Freight</Link>
                                         </li>
-                                        <li><Link href="/track-transport">Rail Freight</Link></li>
-                                        <li><Link href="/emergency-transport">Road Freight</Link></li>
-                                        <li><Link href="/track-transport">Local Truck Transport</Link>
+                                        <li><Link href="/inner/track-transport">Rail Freight</Link></li>
+                                        <li><Link href="/inner/emergency-transport">Road Freight</Link></li>
+                                        <li><Link href="/inner/track-transport">Local Truck Transport</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -146,9 +146,9 @@ const FooterOne: React.FC = () => {
                             © Copywright 2026 by <a href="#">Tanspot</a> All Rights Reserved.
                         </p>
                         <ul className="list-unstyled site-footer__bottom-menu">
-                            <li><Link href="/contact">Support</Link></li>
-                            <li><Link href="/about">Terms and Condition</Link></li>
-                            <li><Link href="/about">Privacy and Policy</Link></li>
+                            <li><Link href="/inner/contact">Support</Link></li>
+                            <li><Link href="/inner/about">Terms and Condition</Link></li>
+                            <li><Link href="/inner/about">Privacy and Policy</Link></li>
                         </ul>
                     </div>
                 </div>

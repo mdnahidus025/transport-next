@@ -22,7 +22,7 @@ export const projectsData: ProjectOneItem[] = [
         img: Project11.src,
         subTitle: 'Logistics',
         title: 'Quality Equipment',
-        linkUrl: '/project-details'
+        linkUrl: '/inner/project-details'
     },
     {
         id: 20,
@@ -31,7 +31,7 @@ export const projectsData: ProjectOneItem[] = [
         img: Project12.src,
         subTitle: 'Logistics',
         title: 'International Shipping',
-        linkUrl: '/project-details'
+        linkUrl: '/inner/project-details'
     },
     {
         id: 30,
@@ -40,7 +40,7 @@ export const projectsData: ProjectOneItem[] = [
         img: Project13.src,
         subTitle: 'Logistics',
         title: 'Safety Gurranted',
-        linkUrl: '/project-details'
+        linkUrl: '/inner/project-details'
     },
     {
         id: 40,
@@ -49,6 +49,6 @@ export const projectsData: ProjectOneItem[] = [
         img: Project14.src,
         subTitle: 'Logistics',
         title: 'Product Distribution',
-        linkUrl: '/project-details'
+        linkUrl: '/inner/project-details'
     },
 ]

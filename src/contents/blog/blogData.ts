@@ -36,7 +36,7 @@ export const blogData: BlogPost[] = [
         title: "Grow Your Following by the Building Cargo Service",
         authorName: "Janes Cooper",
         authorImage: BlogOneAuthorImg1,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 2,
@@ -46,7 +46,7 @@ export const blogData: BlogPost[] = [
         title: "Cargo Follow Through the Best Supply Your Metal",
         authorName: "Kevin Cooper",
         authorImage: BlogOneAuthorImg2,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 3,
@@ -56,7 +56,7 @@ export const blogData: BlogPost[] = [
         title: "How Will You Know Success When it Show Up?",
         authorName: "Alisa Fox",
         authorImage: BlogOneAuthorImg3,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 4,
@@ -66,7 +66,7 @@ export const blogData: BlogPost[] = [
         title: "How Will You Know Success When it Show Up?",
         authorName: "Robert Sons",
         authorImage: BlogOneAuthorImg4,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 5,
@@ -76,7 +76,7 @@ export const blogData: BlogPost[] = [
         title: "Mastering Last Mile Delivery Strategies for Success",
         authorName: "Tamanna Tamu",
         authorImage: BlogOneAuthorImg5,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 6,
@@ -86,7 +86,7 @@ export const blogData: BlogPost[] = [
         title: "Logistics Announces Launch of Greenhouse Gas",
         authorName: "Faisa Haris",
         authorImage: BlogOneAuthorImg6,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 7,
@@ -96,7 +96,7 @@ export const blogData: BlogPost[] = [
         title: "How Will You Know Success When it Show Up?",
         authorName: "Alisa Fox",
         authorImage: BlogOneAuthorImg3,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 8,
@@ -106,7 +106,7 @@ export const blogData: BlogPost[] = [
         title: "How Will You Know Success When it Show Up?",
         authorName: "Robert Sons",
         authorImage: BlogOneAuthorImg4,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 9,
@@ -116,7 +116,7 @@ export const blogData: BlogPost[] = [
         title: "Mastering Last Mile Delivery Strategies for Success",
         authorName: "Tamanna Tamu",
         authorImage: BlogOneAuthorImg5,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 10,
@@ -126,7 +126,7 @@ export const blogData: BlogPost[] = [
         title: "Logistics Announces Launch of Greenhouse Gas",
         authorName: "Faisa Haris",
         authorImage: BlogOneAuthorImg6,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
     {
         id: 11,
@@ -136,7 +136,7 @@ export const blogData: BlogPost[] = [
         title: "Cargo Follow Through the Best Supply Your Metal",
         authorName: "Kevin Cooper",
         authorImage: BlogOneAuthorImg2,
-        slug: "/blog-details"
+        slug: "/inner/blog-details"
     },
 ];
 
@@ -166,7 +166,7 @@ export const blogStandardData: BlogStandardPost[] = [
         readTime: "4 Min Read",
         title: "We Ensures That Best Quality Logistic Services Provides.",
         text: "Out enigma ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        link: "/blog-details"
+        link: "/inner/blog-details"
     },
     {
         id: 2,
@@ -178,7 +178,7 @@ export const blogStandardData: BlogStandardPost[] = [
         readTime: "4 Min Read",
         title: "The Advantages of a Digital Supply Strategy",
         text: "Out enigma ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        link: "/blog-details"
+        link: "/inner/blog-details"
     },
     {
         id: 3,
@@ -190,7 +190,7 @@ export const blogStandardData: BlogStandardPost[] = [
         readTime: "4 Min Read",
         title: "Logistics Announces Launch of The Safe Greenhouse Gas",
         text: "Out enigma ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        link: "/blog-details"
+        link: "/inner/blog-details"
     },
     {
         id: 4,
@@ -202,7 +202,7 @@ export const blogStandardData: BlogStandardPost[] = [
         readTime: "4 Min Read",
         title: "We Ensures That Best Quality Logistic Services Provides.",
         text: "Out enigma ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        link: "/blog-details"
+        link: "/inner/blog-details"
     },
     {
         id: 5,
@@ -214,7 +214,7 @@ export const blogStandardData: BlogStandardPost[] = [
         readTime: "4 Min Read",
         title: "The Advantages of a Digital Supply Strategy",
         text: "Out enigma ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        link: "/blog-details"
+        link: "/inner/blog-details"
     },
 ];
 

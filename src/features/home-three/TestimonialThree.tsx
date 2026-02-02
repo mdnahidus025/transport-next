@@ -93,7 +93,7 @@ export default function TestimonialThree() {
                                                 <p className="testimonial-three__text">{item.text}</p>
                                                 <div className="testimonial-three__client-info-box">
                                                     <div className="testimonial-three__client-info">
-                                                        <h3><Link href="/testimonials">{item.name}</Link></h3>
+                                                        <h3><Link href="/inner/testimonials">{item.name}</Link></h3>
                                                         <p>{item.designation}</p>
                                                     </div>
                                                     <div className="testimonial-three__ratting">

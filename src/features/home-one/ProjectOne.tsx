@@ -40,7 +40,7 @@ export default function ProjectOne() {
                         </h3>
                     </div>
                     <div className="project-one__btn-box">
-                        <Link href="/projects" className="thm-btn">view all projects
+                        <Link href="/inner/projects" className="thm-btn">view all projects
                             <span><i className="icon-right-arrow"></i></span>
                         </Link>
                     </div>

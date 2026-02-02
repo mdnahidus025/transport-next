@@ -49,7 +49,7 @@ const MainSlider: React.FC = () => {
                                                     role
                                                     in the global <br /> supply chain ecosystem managing.</p>
                                                 <div className="main-slider__btn-box">
-                                                    <Link href="/about" className="thm-btn">Discover More
+                                                    <Link href="/inner/about" className="thm-btn">Discover More
                                                         <span><i className="icon-right-arrow"></i></span>
                                                     </Link>
                                                 </div>
@@ -86,7 +86,7 @@ const MainSlider: React.FC = () => {
                                                     supply chain ecosystem managing.
                                                 </p>
                                                 <div className="main-slider__btn-box">
-                                                    <Link href="/about" className="thm-btn">Discover More
+                                                    <Link href="/inner/about" className="thm-btn">Discover More
                                                         <span><i className="icon-right-arrow"></i></span>
                                                     </Link>
                                                 </div>
@@ -119,7 +119,7 @@ const MainSlider: React.FC = () => {
                                                     role
                                                     in the global <br /> supply chain ecosystem managing.</p>
                                                 <div className="main-slider__btn-box">
-                                                    <Link href="/about" className="thm-btn">Discover More
+                                                    <Link href="/inner/about" className="thm-btn">Discover More
                                                         <span><i className="icon-right-arrow"></i></span>
                                                     </Link>
                                                 </div>

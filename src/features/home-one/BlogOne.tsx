@@ -44,26 +44,26 @@ export default function BlogOne() {
                             <div className="blog-one__img">
                                 <Image src={Blog11} width={600} height={300} alt='blog' />
                                 <div className="blog-one__plus">
-                                    <Link href="/blog-details"><i className="icon-plus"></i></Link>
+                                    <Link href="/inner/blog-details"><i className="icon-plus"></i></Link>
                                 </div>
                                 <div className="blog-one__tag">
-                                    <Link href="/blog-details">Logistics</Link>
+                                    <Link href="/inner/blog-details">Logistics</Link>
                                 </div>
                             </div>
                             <div className="blog-one__content">
                                 <ul className="blog-one__meta list-unstyled">
                                     <li>
-                                        <Link href="/blog-details">
+                                        <Link href="/inner/blog-details">
                                             <span className="fas fa-calendar-alt"></span>May 10, 2025
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-details">
+                                        <Link href="/inner/blog-details">
                                             <span className="fas fa-comments"></span>Comment
                                         </Link>
                                     </li>
                                 </ul>
-                                <h3 className="blog-one__title"><Link href="/blog-details">Mastering Last Mile Delivery
+                                <h3 className="blog-one__title"><Link href="/inner/blog-details">Mastering Last Mile Delivery
                                     Strategies for Success in Your Business</Link></h3>
                                 <div className="blog-one__author-and-btn">
                                     <div className="blog-one__author-info">
@@ -78,7 +78,7 @@ export default function BlogOne() {
                                         </div>
                                     </div>
                                     <div className="blog-one__btn-box">
-                                        <Link href="/blog-details" className="thm-btn">Read More<span><i
+                                        <Link href="/inner/blog-details" className="thm-btn">Read More<span><i
                                             className="icon-right-arrow"></i></span></Link>
                                     </div>
                                 </div>
@@ -95,26 +95,26 @@ export default function BlogOne() {
                                 <div className="blog-one__img">
                                     <Image src={Blog12} width={250} height={240} alt='blog' />
                                     <div className="blog-one__plus">
-                                        <Link href="/blog-details"><i className="icon-plus"></i></Link>
+                                        <Link href="/inner/blog-details"><i className="icon-plus"></i></Link>
                                     </div>
                                     <div className="blog-one__tag">
-                                        <Link href="/blog-details">Transport</Link>
+                                        <Link href="/inner/blog-details">Transport</Link>
                                     </div>
                                 </div>
                                 <div className="blog-one__content">
                                     <ul className="blog-one__meta list-unstyled">
                                         <li>
-                                            <Link href="/blog-details">
+                                            <Link href="/inner/blog-details">
                                                 <span className="fas fa-calendar-alt"></span>May 10, 2025
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-details">
+                                            <Link href="/inner/blog-details">
                                                 <span className="fas fa-comments"></span>Comment
                                             </Link>
                                         </li>
                                     </ul>
-                                    <h3 className="blog-one__title"><Link href="/blog-details">Logistics Announces Launch
+                                    <h3 className="blog-one__title"><Link href="/inner/blog-details">Logistics Announces Launch
                                         of Greenhouse Gas Effect</Link></h3>
                                     <div className="blog-one__author-and-btn">
                                         <div className="blog-one__author-info">
@@ -129,7 +129,7 @@ export default function BlogOne() {
                                             </div>
                                         </div>
                                         <div className="blog-one__arrow-box">
-                                            <Link href="/blog-details" className="blog-one__arrow"><span
+                                            <Link href="/inner/blog-details" className="blog-one__arrow"><span
                                                 className="icon-right-arrow"></span></Link>
                                         </div>
                                     </div>
@@ -143,26 +143,26 @@ export default function BlogOne() {
                                 <div className="blog-one__img">
                                     <Image src={Blog13} width={250} height={240} alt='blog' />
                                     <div className="blog-one__plus">
-                                        <Link href="/blog-details"><i className="icon-plus"></i></Link>
+                                        <Link href="/inner/blog-details"><i className="icon-plus"></i></Link>
                                     </div>
                                     <div className="blog-one__tag">
-                                        <Link href="/blog-details">Agency</Link>
+                                        <Link href="/inner/blog-details">Agency</Link>
                                     </div>
                                 </div>
                                 <div className="blog-one__content">
                                     <ul className="blog-one__meta list-unstyled">
                                         <li>
-                                            <Link href="/blog-details">
+                                            <Link href="/inner/blog-details">
                                                 <span className="fas fa-calendar-alt"></span>May 10, 2025
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-details">
+                                            <Link href="/inner/blog-details">
                                                 <span className="fas fa-comments"></span>Comment
                                             </Link>
                                         </li>
                                     </ul>
-                                    <h3 className="blog-one__title"><Link href="/blog-details">We ensures you the best
+                                    <h3 className="blog-one__title"><Link href="/inner/blog-details">We ensures you the best
                                         quality services for your business</Link></h3>
                                     <div className="blog-one__author-and-btn">
                                         <div className="blog-one__author-info">
@@ -177,7 +177,7 @@ export default function BlogOne() {
                                             </div>
                                         </div>
                                         <div className="blog-one__arrow-box">
-                                            <Link href="/blog-details" className="blog-one__arrow"><span
+                                            <Link href="/inner/blog-details" className="blog-one__arrow"><span
                                                 className="icon-right-arrow"></span></Link>
                                         </div>
                                     </div>

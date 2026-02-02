@@ -142,7 +142,7 @@ export default function AboutTwo() {
                                 </div>
                                 <div className="about-two__btn-and-author-box">
                                     <div className="about-two__btn-box">
-                                        <Link href="/about" className="thm-btn">Read More
+                                        <Link href="/inner/about" className="thm-btn">Read More
                                             <span><i className="icon-right-arrow"></i></span>
                                         </Link>
                                     </div>

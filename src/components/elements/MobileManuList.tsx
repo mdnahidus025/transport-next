@@ -51,8 +51,8 @@ const MobileManuList: React.FC = () => {
                     }
                 </ul>
             </li>
-            <li className={`${currentPath === "/about" ? "current" : ""}`} onClick={closeMobileManu}>
-                <Link href="/about">About Us</Link>
+            <li className={`${currentPath === "/inner/about" ? "current" : ""}`} onClick={closeMobileManu}>
+                <Link href="/inner/about">About Us</Link>
             </li>
             <li className="dropdown">
                 <a href="#" className={`${isPages || findLocation(pagesList) ? "expanded" : ""}`}>
@@ -151,8 +151,8 @@ const MobileManuList: React.FC = () => {
                     }
                 </ul>
             </li>
-            <li className={`${currentPath === "/contact" ? "current" : ""}`} onClick={closeMobileManu}>
-                <Link href="/contact">Contact</Link>
+            <li className={`${currentPath === "/inner/contact" ? "current" : ""}`} onClick={closeMobileManu}>
+                <Link href="/inner/contact">Contact</Link>
             </li>
         </ul>
     );

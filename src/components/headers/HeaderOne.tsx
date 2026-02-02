@@ -100,7 +100,7 @@ const HeaderOne: React.FC = () => {
                                 </a>
                             </div>
                             <div className="main-menu__btn-box">
-                                <Link href="/contact" className="thm-btn">Track Order<span><i className="icon-right-arrow"></i></span></Link>
+                                <Link href="/inner/contact" className="thm-btn">Track Order<span><i className="icon-right-arrow"></i></span></Link>
                             </div>
                         </div>
                     </div>

@@ -127,7 +127,7 @@ const ProjectDetailsMain: React.FC = () => {
                                     </li>
                                 </ul>
                                 <div className="project-details__get-started-btn-box">
-                                    <Link href="/contact" className="thm-btn">get in touch
+                                    <Link href="/inner/contact" className="thm-btn">get in touch
                                         <span><i className="icon-right-arrow"></i></span>
                                     </Link>
                                 </div>

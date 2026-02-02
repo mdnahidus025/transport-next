@@ -56,7 +56,7 @@ export default function SkillOne() {
                                     }
                                 </div>
                                 <div className="skill-one__btn-box">
-                                    <Link href="/contact" className="thm-btn">Book Your Parcel
+                                    <Link href="/inner/contact" className="thm-btn">Book Your Parcel
                                         <span><i className="icon-right-arrow"></i></span>
                                     </Link>
                                 </div>

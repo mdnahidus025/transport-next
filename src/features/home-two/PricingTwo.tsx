@@ -60,7 +60,7 @@ export default function PricingTwo() {
                                             ))}
                                         </ul>
                                         <div className="pricing-one__btn-box">
-                                            <Link href="/pricing" className="thm-btn">
+                                            <Link href="/inner/pricing" className="thm-btn">
                                                 Choose Plan
                                                 <span>
                                                     <i className="icon-right-arrow"></i>

@@ -66,7 +66,7 @@ const ProjectsMain: React.FC = () => {
                                                     <div className="project-one__title-box">
                                                         <p className="project-one__sub-title">{project.subTitle}</p>
                                                         <h3 className="project-one__title">
-                                                            <Link href="/project-details">{project.title}</Link>
+                                                            <Link href="/inner/project-details">{project.title}</Link>
                                                         </h3>
                                                     </div>
                                                     <div className="project-one__arrow">

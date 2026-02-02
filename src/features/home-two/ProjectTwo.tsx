@@ -25,56 +25,56 @@ const projects: ProjectItem[] = [
         title: "Quality Equipment",
         subTitle: "Logistics",
         image: Project11.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 2,
         title: "International Shipping",
         subTitle: "Logistics",
         image: Project12.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 3,
         title: "Safety Guaranteed",
         subTitle: "Logistics",
         image: Project13.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 4,
         title: "Product Distribution",
         subTitle: "Logistics",
         image: Project14.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 5,
         title: "Quality Equipment",
         subTitle: "Logistics",
         image: Project11.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 6,
         title: "International Shipping",
         subTitle: "Logistics",
         image: Project12.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 7,
         title: "Safety Guaranteed",
         subTitle: "Logistics",
         image: Project13.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     },
     {
         id: 8,
         title: "Product Distribution",
         subTitle: "Logistics",
         image: Project14.src,
-        link: "/project-details",
+        link: "/inner/project-details",
     }
 ];
 export default function ProjectTwo() {
@@ -111,7 +111,7 @@ export default function ProjectTwo() {
                         </h3>
                     </div>
                     <div className="project-one__btn-box">
-                        <Link href="/projects" className="thm-btn">view all projects
+                        <Link href="/inner/projects" className="thm-btn">view all projects
                             <span><i className="icon-right-arrow"></i></span>
                         </Link>
                     </div>

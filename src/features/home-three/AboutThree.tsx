@@ -118,7 +118,7 @@ export default function AboutThree() {
                                 </ul>
                                 <div className="about-three__btn-and-video">
                                     <div className="about-three__btn-box">
-                                        <Link href="/about" className="thm-btn">Discover More<span><i className="icon-right-arrow"></i></span></Link>
+                                        <Link href="/inner/about" className="thm-btn">Discover More<span><i className="icon-right-arrow"></i></span></Link>
                                     </div>
                                     <div className="about-three__video-box">
                                         <div className="about-three__video-link">

@@ -32,7 +32,7 @@ const BannerOne: React.FC = () => {
                             in the global <br /> supply chain ecosystem managing.</p>
                         <div className="banner-one__btn-and-review-box">
                             <div className="banner-one__btn-box">
-                                <Link href="/about" className="thm-btn">Discover More
+                                <Link href="/inner/about" className="thm-btn">Discover More
                                     <span><i className="icon-right-arrow"></i></span>
                                 </Link>
                             </div>

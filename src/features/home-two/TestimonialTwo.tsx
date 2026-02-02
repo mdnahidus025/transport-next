@@ -153,7 +153,7 @@ export default function TestimonialTwo() {
                                                     <Image src={item.clientImage} width={65} height={65} alt={item.name} />
                                                 </div>
                                                 <div className="testimonial-two__client-content">
-                                                    <h3><Link href="/testimonials">{item.name}</Link></h3>
+                                                    <h3><Link href="/inner/testimonials">{item.name}</Link></h3>
                                                     <p>{item.designation}</p>
                                                 </div>
                                             </div>

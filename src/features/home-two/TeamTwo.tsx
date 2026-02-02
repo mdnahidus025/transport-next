@@ -107,16 +107,16 @@ export default function TeamTwo() {
                                         <div className="team-two__img">
                                             <Image src={member.image} width={300} height={320} alt={member.name} />
                                             <div className="team-two__social">
-                                                <Link href="/team-details"><i className="fab fa-facebook-f"></i></Link>
-                                                <Link href="/team-details"><i className="fab fa-twitter"></i></Link>
-                                                <Link href="/team-details"><i className="fab fa-pinterest-p"></i></Link>
-                                                <Link href="/team-details"><i className="fab fa-instagram"></i></Link>
+                                                <Link href="/inner/team-details"><i className="fab fa-facebook-f"></i></Link>
+                                                <Link href="/inner/team-details"><i className="fab fa-twitter"></i></Link>
+                                                <Link href="/inner/team-details"><i className="fab fa-pinterest-p"></i></Link>
+                                                <Link href="/inner/team-details"><i className="fab fa-instagram"></i></Link>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="team-two__content">
                                         <h3 className="team-two__name">
-                                            <Link href="/team-details">{member.name}</Link>
+                                            <Link href="/inner/team-details">{member.name}</Link>
                                         </h3>
                                         <p className="team-two__sub-title">{member.designation}</p>
                                     </div>

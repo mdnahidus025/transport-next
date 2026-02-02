@@ -103,7 +103,7 @@ const AboutOne: React.FC = () => {
                                                 </div>
                                             </div>
                                             <div className="overlay-icon-box">
-                                                <Link href="/about"><i className="icon-plane"></i></Link>
+                                                <Link href="/inner/about"><i className="icon-plane"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -202,7 +202,7 @@ const AboutOne: React.FC = () => {
                             </div>
                             <div className="about-one__btn-and-author-box">
                                 <div className="about-one__btn-box">
-                                    <Link href="/about" className="thm-btn">Read More
+                                    <Link href="/inner/about" className="thm-btn">Read More
                                         <span><i className="icon-right-arrow"></i></span>
                                     </Link>
                                 </div>
