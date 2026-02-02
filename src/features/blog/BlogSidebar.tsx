@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';  
+import React from 'react';
 import RecentPostImg1 from '@/assets/images/blog/recent-post-img-1.jpg';
 import RecentPostImg2 from '@/assets/images/blog/recent-post-img-2.jpg';
 import RecentPostImg3 from '@/assets/images/blog/recent-post-img-3.jpg';
@@ -16,17 +16,16 @@ const BlogSidebar: React.FC<BlogSidebar> = ({ wrapper, inner }) => {
         <div className={wrapper}>
             <div className={inner}>
                 {/*Start Sidebar Single*/}
-                <div className="sidebar__single sidebar__search">
-                    <FadeInAdvanced
-                        variant={'fadeInUp'}
-                        delay={100}
-                    >
-                        <form className="sidebar__search-form" onSubmit={(e) => e.preventDefault()}>
-                            <input type="search" placeholder="Search..." />
-                            <button type="submit"><i className="fa fa-search"></i></button>
-                        </form>
-                    </FadeInAdvanced>
-                </div>
+                <FadeInAdvanced
+                    variant={'fadeInUp'}
+                    delay={100}
+                    className="sidebar__single sidebar__search"
+                >
+                    <form className="sidebar__search-form" onSubmit={(e) => e.preventDefault()}>
+                        <input type="search" placeholder="Search..." />
+                        <button type="submit"><i className="fa fa-search"></i></button>
+                    </form>
+                </FadeInAdvanced>
                 {/*End Sidebar Single*/}
 
 

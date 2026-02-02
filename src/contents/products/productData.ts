@@ -12,7 +12,32 @@ import productImg9 from "@/assets/images/shop/shop-product-1-9.jpg"
 import productImg10 from "@/assets/images/shop/shop-product-1-10.jpg"
 import productImg11 from "@/assets/images/shop/shop-product-1-11.jpg"
 import productImg12 from "@/assets/images/shop/shop-product-1-12.jpg"
+import productD1 from "@/assets/images/shop/product-details-img-1.jpg"
+import productD2 from "@/assets/images/shop/product-details-img-2.jpg"
+import productD3 from "@/assets/images/shop/product-details-img-3.jpg"
+import productDT1 from "@/assets/images/shop/product-details-thumb-img-1.jpg"
+import productDT2 from "@/assets/images/shop/product-details-thumb-img-2.jpg"
+import productDT3 from "@/assets/images/shop/product-details-thumb-img-3.jpg"
 import type { ProductItem } from "./productType"
+import { StaticImageData } from "next/image"
+
+type productD = {
+    id: number;
+    image: string | StaticImageData;
+}
+export const productDetailsList: productD[] = [
+    { id: 1, image: productD1 },
+    { id: 2, image: productD2 },
+    { id: 3, image: productD3 }
+]
+export const productDetailsThumbList: productD[] = [
+    { id: 1, image: productDT1 },
+    { id: 2, image: productDT2 },
+    { id: 3, image: productDT3 },
+    { id: 4, image: productDT1 },
+    { id: 5, image: productDT2 },
+    { id: 6, image: productDT3 }
+]
 
 export const productsList: ProductItem[] = [
     {

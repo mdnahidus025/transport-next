@@ -45,7 +45,7 @@ export const shopList: MenuItem[] = [
 
 // Blog Dropdown
 export const blogList: MenuItem[] = [
-  { id: 1, text: "Blog", url: "/blog" },
+  { id: 1, text: "Blog", url: "/inner/blog" },
   { id: 2, text: "Blog Standard", url: "/inner/blog-standard" },
   { id: 3, text: "Blog Left Sidebar", url: "/inner/blog-left-sidebar" },
   { id: 4, text: "Blog Right Sidebar", url: "/inner/blog-right-sidebar" },

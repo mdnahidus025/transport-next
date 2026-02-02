@@ -148,7 +148,7 @@ const ProductDescription: React.FC = () => {
                                                     <div className="comment">
                                                         <div className="author-thumb">
                                                             <figure className="thumb">
-                                                                <Image src={review.image} width={166} height={166} alt={review.name} />
+                                                                <Image src={review.image} width={165} height={165} alt={review.name} />
                                                             </figure>
                                                         </div>
 

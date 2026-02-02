@@ -140,7 +140,7 @@ export default function TeamOne() {
                                         <div className="team-one__content">
                                             <div className="team-one__title-box">
                                                 <h3 className="team-one__title">
-                                                    <Link href="/team-details">{member.name}</Link>
+                                                    <Link href="/inner/team-details">{member.name}</Link>
                                                 </h3>
                                                 <p className="team-one__sub-title">{member.role}</p>
                                             </div>

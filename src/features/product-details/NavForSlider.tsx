@@ -4,8 +4,9 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs, Autoplay } from "swiper/modules";
 import type { Swiper as SwiperType } from 'swiper';
-import { productsList } from "@/contents/products/productData";
+import { productDetailsList, productDetailsThumbList } from "@/contents/products/productData";
 import Image from "next/image";
+
 
 const NavForSlider: React.FC = () => {
     const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
@@ -26,10 +27,10 @@ const NavForSlider: React.FC = () => {
                     spaceBetween={10}
                     className="main-swiper"
                 >
-                    {productsList.map((product) => (
+                    {productDetailsList.map((product) => (
                         <SwiperSlide key={product.id}>
                             <div className="product-details__img">
-                                <Image src={product?.image} width={548} height={566} alt="Image" />
+                                <Image src={product?.image} width={550} height={640} alt="Image" />
                             </div>
                         </SwiperSlide>
                     ))}
@@ -57,10 +58,10 @@ const NavForSlider: React.FC = () => {
                             }
                         }}
                     >
-                        {productsList.map((product) => (
+                        {productDetailsThumbList.map((product) => (
                             <SwiperSlide key={product.id}>
                                 <div className="product-details__thumb-img">
-                                    <Image src={product?.image} width={123} height={127} alt="Image" />
+                                    <Image src={product?.image} width={123} height={123} alt="Image" />
                                 </div>
                             </SwiperSlide>
                         ))}
